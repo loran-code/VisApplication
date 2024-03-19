@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisaApplication.Application", "src\VisaApplication.Application\VisaApplication.Application.csproj", "{63F879CA-AECC-480C-AE61-1DAF0B1D2A63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisaApplication.Domain", "src\VisaApplication.Domain\VisaApplication.Domain.csproj", "{E2F1397D-2F2A-48FE-8BE9-431FD0EE52FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisaApplication.Infrastructure", "src\VisaApplication.Infrastructure\VisaApplication.Infrastructure.csproj", "{FA20BA35-FB4D-4C2B-81F0-5741F22E78D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisaApplication.Web", "src\VisaApplication.Web\VisaApplication.Web.csproj", "{5164AFC9-A434-4FC2-B552-CE0AAC87D3C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisaApplication.UnitTests", "tests\VisaApplication.UnitTests\VisaApplication.UnitTests.csproj", "{FC10709C-7808-4B87-9BE7-CEFEF8FCEF93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisaApplication.IntegrationTests", "tests\VisaApplication.IntegrationTests\VisaApplication.IntegrationTests.csproj", "{CECA6FBF-ED66-4A55-937C-75E700D0B79F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63F879CA-AECC-480C-AE61-1DAF0B1D2A63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63F879CA-AECC-480C-AE61-1DAF0B1D2A63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63F879CA-AECC-480C-AE61-1DAF0B1D2A63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63F879CA-AECC-480C-AE61-1DAF0B1D2A63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2F1397D-2F2A-48FE-8BE9-431FD0EE52FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2F1397D-2F2A-48FE-8BE9-431FD0EE52FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2F1397D-2F2A-48FE-8BE9-431FD0EE52FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2F1397D-2F2A-48FE-8BE9-431FD0EE52FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88F6E395-84BA-4326-882D-DF6FDB2132E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88F6E395-84BA-4326-882D-DF6FDB2132E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88F6E395-84BA-4326-882D-DF6FDB2132E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88F6E395-84BA-4326-882D-DF6FDB2132E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA20BA35-FB4D-4C2B-81F0-5741F22E78D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA20BA35-FB4D-4C2B-81F0-5741F22E78D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA20BA35-FB4D-4C2B-81F0-5741F22E78D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA20BA35-FB4D-4C2B-81F0-5741F22E78D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5164AFC9-A434-4FC2-B552-CE0AAC87D3C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5164AFC9-A434-4FC2-B552-CE0AAC87D3C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5164AFC9-A434-4FC2-B552-CE0AAC87D3C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5164AFC9-A434-4FC2-B552-CE0AAC87D3C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC10709C-7808-4B87-9BE7-CEFEF8FCEF93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC10709C-7808-4B87-9BE7-CEFEF8FCEF93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC10709C-7808-4B87-9BE7-CEFEF8FCEF93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC10709C-7808-4B87-9BE7-CEFEF8FCEF93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CECA6FBF-ED66-4A55-937C-75E700D0B79F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CECA6FBF-ED66-4A55-937C-75E700D0B79F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CECA6FBF-ED66-4A55-937C-75E700D0B79F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CECA6FBF-ED66-4A55-937C-75E700D0B79F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
