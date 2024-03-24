@@ -10,6 +10,12 @@ Welcome to VisApplication, an open-source project aimed at simplifying the visa 
 ## Architecture Overview
 The project is structured around Clean Architecture principles, ensuring our domain logic is at the core of the application's design. This approach allows us to create a system that is flexible, testable, and aligned with business goals.
 
+## GPT Conversations
+
+- [README](docs/gpt/0-README.md)
+- [Project Setup](docs/gpt/1-project_setup.md)
+- [Software Architecture and System Design](docs/gpt/2-software_architecture_and_system_design.md)
+
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
