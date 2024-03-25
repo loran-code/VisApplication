@@ -37,7 +37,7 @@ This is what I currently have.
 
 ### Internal Services:
 - **[Hangfire](https://www.hangfire.io/)**: An easy way to perform background processing in .NET and .NET Core applications. No Windows Service or separate process required.
-- **[MassTransit with RabbitMQ](https://masstransit.io/)**:, to handle asynchronous message processing and inter-service communication.
+- **[MassTransit with RabbitMQ](https://masstransit.io/)**: Handle asynchronous message processing and inter-service communication.
 - **[Authentication](https://learn.microsoft.com/en-us/aspnet/core/security/authentication/identity?view=aspnetcore-8.0&tabs=visual-studio) & [Authorization](https://learn.microsoft.com/en-us/aspnet/core/security/authorization/introduction?view=aspnetcore-8.0)**: .NET Individual Authentication, to manage user identities and permissions securely.
 
 ### External Services:
