@@ -20,15 +20,11 @@ If you want to learn more about the different type of UML diagrams visit the [bl
 
 Defines stereotypes and tagged values that extend the base UML model to create a domain-specific language. Use it to understand custom extensions made to standard UML to fit the project's needs.
 
-<div style="text-align: center;">
-  <img src="docs/uml/structure/profile_diagram.png" width="678" alt="Profile Diagram">
-</div>
-
 <details>
-  <summary>Profile Diagram (click to expand)</summary>
-  <p align="center">
-    <img src="docs/uml/structure/profile_diagram.png" alt="Profile Diagram" />
-  </p>
+    <summary>Profile Diagram (click to expand)</summary>
+    <div style="text-align: center;">
+      <img src="docs/uml/structure/profile_diagram.png" alt="Profile Diagram">
+    </div>
 </details>
 
 
@@ -36,57 +32,80 @@ Defines stereotypes and tagged values that extend the base UML model to create a
 
 Provides a high-level view of the conceptual model, illustrating the main entities, their attributes, and relationships within the domain. This diagram helps to clarify the real-world constructs and their interconnections, setting a foundational understanding that informs more detailed system modeling.
 
-<div style="text-align: center;">
-  <img src="docs/uml/structure/domain_model_diagram.png" width="432" alt="Domain Model Diagram">
-</div>
+<details>
+    <summary>Domain Model Diagram (click to expand)</summary>
+    <div style="text-align: center;">
+      <img src="docs/uml/structure/domain_model_diagram.png" alt="Domain Model Diagram">
+    </div>
+</details>
 
 **Package Diagram**
 
 Illustrates the organization and dependencies of different packages within a system. Read this diagram to see the system's modular structure and how high-level components are grouped.
 
-<div style="text-align: center;">
-  <img src="docs/uml/structure/package_diagram.png" width="1000" alt="Package Diagram">
-</div>
+<details>
+    <summary>Package Diagram (click to expand)</summary>
+    <div style="text-align: center;">
+      <img src="docs/uml/structure/package_diagram.png" alt="Package Diagram">
+    </div>
+</details>
+
 
 **Component Diagram**
 
 Describes the organization and interconnections of components within a system. It provides a high-level view of the system's building blocks and how they interact to provide functionality.
 
-<div style="text-align: center;">
-  <img src="docs/uml/structure/component_diagram.png" width="350" alt="Component Diagram">
-</div>
+<details>
+    <summary>Component Diagram (click to expand)</summary>
+    <div style="text-align: center;">
+      <img src="docs/uml/structure/component_diagram.png" alt="Component Diagram">
+    </div>
+</details>
 
 **Deployment Diagram**
 
 Shows the physical deployment of artifacts on nodes, detailing the system's hardware and the middleware linking software components. Understand this to see how the system will be physically deployed across different machines.
 
-<div style="text-align: center;">
-  <img src="docs/uml/structure/deployment_diagram.png" width="633" alt="Deployment Diagram">
-</div>
+<details>
+    <summary>Deployment Diagram (click to expand)</summary>
+    <div style="text-align: center;">
+      <img src="docs/uml/structure/deployment_diagram.png" alt="Deployment Diagram">
+    </div>
+</details>
 
 **Composite Structure Diagram**
 
 Outlines the internal structure of a class or a component, including its sub-parts and the interactions between them. Use this to grasp the detailed wiring and collaboration between parts of the system.
 
-<div style="text-align: center;">
-  <img src="docs/uml/structure/composite_structure_diagram.png" width="800" alt="Composite Structure Diagram">
-</div>
+<details>
+    <summary>Composite Structure Diagram (click to expand)</summary>
+    <div style="text-align: center;">
+      <img src="docs/uml/structure/composite_structure_diagram.png" alt="Composite Structure Diagram">
+    </div>
+</details>
+
 
 **Class Diagram**
 
 Represents the static structure of the system, showing classes, their attributes, methods, and relationships. Interpret this to understand the blueprint of the system and how its data and behavior are defined.
 
-<div style="text-align: center;">
-  <img src="docs/uml/structure/class_diagram.png" width="1479" alt="Class Diagram">
-</div>
+<details>
+    <summary>Class Diagram (click to expand)</summary>
+    <div style="text-align: center;">
+      <img src="docs/uml/structure/class_diagram.png" alt="Class Diagram">
+    </div>
+</details>
 
 **Object Diagram**
 
 Depicts objects and their relationships at a specific point in time, giving a snapshot of the system's state. Look at this diagram to see examples of how classes and objects relate in practice.
 
-<div style="text-align: center;">
-  <img src="docs/uml/structure/object_diagram.png" width="1658" alt="Object Diagram">
-</div>
+<details>
+    <summary>Object Diagram (click to expand)</summary>
+    <div style="text-align: center;">
+      <img src="docs/uml/structure/object_diagram.png" alt="Object Diagram">
+    </div>
+</details>
 
 ### Behavioral Diagrams
 
@@ -94,49 +113,66 @@ Depicts objects and their relationships at a specific point in time, giving a sn
 
 Shows the interactions between users (actors) and use cases, where a use case represents a unit of useful functionality. Use this to identify the functions the system should perform from an external point of view.
 
-<div style="text-align: center;">
-  <img src="docs/uml/behavioral/use_case_diagram.png" alt="Use Case Diagram">
-</div>
+<details>
+    <summary>Use Case Diagram (click to expand)</summary>
+    <div style="text-align: center;">
+      <img src="docs/uml/behavioral/use_case_diagram.png" alt="Use Case Diagram">
+    </div>
+</details>
 
 **Activity Diagram**
 
 Models the workflow and business processes in the system, illustrating the flow from one activity to another. This diagram helps you understand the sequence and conditions for how the system operates.
 
-<div style="text-align: center;">
-  <img src="docs/uml/behavioral/activity_diagram.png" alt="Activity Diagram">
-</div>
+<details>
+    <summary>Activity Diagram (click to expand)</summary>
+    <div style="text-align: center;">
+      <img src="docs/uml/behavioral/activity_diagram.png" alt="Activity Diagram">
+    </div>
+</details>
 
 **State Machine Diagram**
 
 Describes the state changes that an object goes through in response to events, with each transition reflecting a change in the object's state. Use this to track the lifecycle of key entities within the system.
 
-<div style="text-align: center;">
-  <img src="docs/uml/behavioral/state_machine_diagram.png" height="700" alt="State Machine Diagram">
-</div>
+<details>
+    <summary>State Machine Diagram (click to expand)</summary>
+    <div style="text-align: center;">
+      <img src="docs/uml/behavioral/state_machine_diagram.png" alt="State Machine Diagram">
+    </div>
+</details>
 
 **Sequence Diagram**
 
 Displays the sequence of messages exchanged between objects and processes over time to carry out a specific function. Read this to follow the flow of control and communication between system components for particular scenarios.
 
-<div style="text-align: center;">
-  <img src="docs/uml/behavioral/sequence_diagram.png" alt="Sequence Diagram">
-</div>
+<details>
+    <summary>Sequence Diagram (click to expand)</summary>
+    <div style="text-align: center;">
+      <img src="docs/uml/behavioral/sequence_diagram.png" alt="Sequence Diagram">
+    </div>
+</details>
 
 **Communication Diagram**
 
 Shows the interactions between objects or parts based on their relationships and the messages they exchange. It provides an alternative to sequence diagrams, focusing on object collaboration.
 
-<div style="text-align: center;">
-  <img src="docs/uml/behavioral/communication_diagram.png" alt="Communication Diagram">
-</div>
+<details>
+    <summary>Communication Diagram (click to expand)</summary>
+    <div style="text-align: center;">
+      <img src="docs/uml/behavioral/communication_diagram.png" alt="Communication Diagram">
+    </div>
+</details>
+
 
 **Interaction Overview Diagram**
 
-<div style="text-align: center;">
-  <img src="docs/uml/behavioral/interactive_overview_diagram.png" alt="Interaction Overview Diagram">
-</div>
-
-Combines aspects of activity and sequence diagrams to give an overview of the control flow within the system, showing how different interactions fit into a larger context. Use this for a high-level map of complex sequences.
+<details>
+    <summary>Interaction Overview Diagram (click to expand)</summary>
+    <div style="text-align: center;">
+      <img src="docs/uml/behavioral/interactive_overview_diagram.png" alt="Interaction Overview Diagram">
+    </div>
+</details>
 
 ## GPT Conversations
 
