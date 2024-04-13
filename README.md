@@ -191,14 +191,5 @@ These conversations with GPT are documented and made accessible, offering insigh
 - [UML Design](docs/gpt/3-UML_design.md): A collection of UML diagrams inspired by conversations with GPT, illustrating the system's structure.
 
 
-
-## GPT Conversations
-
-- [README](docs/gpt/0-README.md)
-- [Project Setup](docs/gpt/1-project_setup.md)
-- [Software Architecture and System Design](docs/gpt/2-software_architecture_and_system_design.md)
-- [UML](docs/gpt/3-UML_design.md)
-
-
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
