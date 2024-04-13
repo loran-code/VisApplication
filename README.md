@@ -12,6 +12,12 @@ The project is structured around Clean Architecture principles, ensuring our dom
 
 ## Unified Modeling Language (UML) Design
 
+> Author's Note
+>
+> Please be aware that the UML diagrams may evolve during the development process.
+> The purpose of this stage is to acquire a broad understanding of the application's architecture.
+> Engaging with these diagrams could potentially reveal insights and considerations that were not initially apparent.
+
 If you want to learn more about the different type of UML diagrams visit the [blog at creately.com](https://creately.com/blog/diagrams/uml-diagram-types-examples/)
 
 ### Structure Diagrams
